@@ -25,12 +25,12 @@ function Header() {
                 <MdOutlineShoppingBag className='text-3xl'/>
                 <IoSearchOutline  className='text-3xl'/>
                 </div>
-                <div>
-                    <p className='text-xl text-[#FF3811] font-semibold border-2 p-3 rounded-md border-[#FF3811]'>Appointment</p>
+                <div className=''>
+                    <p className='btn  text-xl text-[#FF3811] font-semibold border-2 w-fit h-full py-4    rounded-md border-[#FF3811]'>Appointment</p>
                 </div>
             </div>
         </div>
     )
 }
 
-export default Header;
+export default Header; 
