@@ -6,10 +6,11 @@ export default {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-to-l': 'linear-gradient(to left, #000000 0%, #000000 100%, #ffffff 100%)',
-      },
+
     },
   },
   plugins: [require("daisyui")],
+  daisyui: {
+    themes: ['light'],
+  },
 }

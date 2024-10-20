@@ -1,14 +1,10 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
-import Header from '../Components/Header/Header';
-import Footer from '../Components/Footer/Footer';
+import { Outlet } from 'react-router-dom'; 
 
 function Layout() {
     return (
         <div className='container mx-auto'>
-            <Header></Header>
-            <Outlet></Outlet>
-            <Footer></Footer>
+            <Outlet/>
         </div>
     )
 }
